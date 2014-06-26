@@ -1,9 +1,14 @@
-OSM Bright
+OSM Night
 ==========
 
-![screenshot](https://raw.github.com/mapbox/osm-bright/master/preview.png)
+![screenshot](http://i.imgur.com/CgZRH7A.png)
 
-OSM Bright is a sensible starting point for quickly making beautiful maps based
+
+Regarding the fork
+=============
+This theme was made because there was a need for a night theme so users who work in control rooms at night could see what they are doing and dont have to have a bright theme in a complete dark room. All the instructions on how to use this comes from the mapbox/osm-bright project.
+
+OSM Night is a sensible starting point for quickly making beautiful maps based
 on an OpenStreetMap database. It is written in the [Carto][] styling language
 and can be opened as a project in [TileMill][].
 
