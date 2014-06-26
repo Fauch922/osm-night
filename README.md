@@ -25,10 +25,10 @@ Setup Instructions
 
 ### 1. Download shapefiles
 
-OSM Bright depends on several large shapefiles. You should start downloading these
+OSM Night depends on several large shapefiles. You should start downloading these
 now so that they are ready later when you need them for rendering.
 
-Download them to the `osm-bright` directory. You can do this with `wget` like:
+Download them to the `osm-night` directory. You can do this with `wget` like:
 
     wget http://tilemill-data.s3.amazonaws.com/osm/coastline-good.zip
     wget http://tilemill-data.s3.amazonaws.com/osm/shoreline_300.zip
@@ -67,7 +67,7 @@ which includes a few important tags compared to the default. The Imposm import
 command looks like this:
 
     imposm -U <postgres_user> -d <postgis_database> \
-      -m /path/to/osm-bright/imposm-mapping.py --read --write \
+      -m /path/to/osm-night/imposm-mapping.py --read --write \
       --optimize --deploy-production-tables <data.osm.pbf>
 
 See `imposm --help` or the [online documentation][3] for more details.
@@ -100,7 +100,7 @@ information.
 2. Open `configure.py` in a text editor.
 3. Make sure the "importer" option matches the program you used to import your 
    data (either "imposm" or "osm2pgsql").
-4. Optionally change the name of your project from the default, 'OSM Bright'.
+4. Optionally change the name of your project from the default, 'OSM Night'.
 5. Adjust, if needed, the path to point to your MapBox project folder.
 6. Make any adjustments to the PostgreSQL connection settings. Your database
    may be set up so that you require a password or different user name.
