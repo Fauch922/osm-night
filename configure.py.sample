@@ -19,7 +19,7 @@ config["path"] = path.expanduser("~/Documents/MapBox/project")
 # Leave empty for Mapnik defaults. The only required parameter is dbname.
 config["postgis"]["host"]     = ""
 config["postgis"]["port"]     = ""
-config["postgis"]["dbname"]   = "osm"
+config["postgis"]["dbname"]   = "gis"
 config["postgis"]["user"]     = ""
 config["postgis"]["password"] = ""
 
