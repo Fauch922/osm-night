@@ -1,12 +1,6 @@
 /* ****************************************************************** */
-/* OSM Night for Imposm                                              */
+/* OSM DARK for Imposm                                              */
 /* ****************************************************************** */
-/*
-* This pallette file can be used instead of the OSM Bright pallette that 
-* comes with the project osm-bright: https://github.com/mapbox/osm-bright
-* simply change that pallette.mss to this OSMNight.mss and change the name to 
-* pallette.mss and you can use it with tile-mill.
-*/
 
 /* For basic style customization you can simply edit the colors and
  * fonts defined in this file. For more detailed / advanced
@@ -129,11 +123,11 @@ Map { font-directory: url(./fonts); }
 @state_text:        #ffffff;
 @state_halo:        @place_halo;
 
-@city_text:         #d7d7d7;
-@city_halo:         @place_halo;
+@city_text:         #ffffff;
+@city_halo:         #9c9c9c;
 
 @town_text:         #d7d7d7;
-@town_halo:         @place_halo;
+@town_halo:         #9c9c9c;
 
 @poi_text:          #d7d7d7;
 
@@ -151,5 +145,6 @@ Map { font-directory: url(./fonts); }
 @village_halo:      @place_halo;
 
 /* ****************************************************************** */
+
 
 
